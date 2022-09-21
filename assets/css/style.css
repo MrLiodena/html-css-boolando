@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: orange;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 1%;
+    align-items: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+nav:nth-child(2){
+    text-align: center;
+}
+
+.logo{
+    width: 40%;
+}
